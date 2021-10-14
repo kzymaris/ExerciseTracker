@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.zymarisk.helloworld.MainActivity">
+    <!--<item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/addTab"
+        android:orderInCategory="99"
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/remove"
+        android:orderInCategory="97"
+        android:title="@string/rem"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/addExercise"
+        android:orderInCategory="98"
+        android:title="@string/newE"
+        app:showAsAction="ifRoom" />
+</menu>
